@@ -1,0 +1,152 @@
+Instruction Memory: 0
+The SIM just introduced an ASI operation to the instruction memory with value 2 to be stored at 0
+Instruction Memory: 0
+The SIM just introduced an ASI operation to the instruction memory with value 5 to be stored at 1
+Instruction Memory: 0
+The SIM just introduced an ASI operation to the instruction memory with value 2 to be stored at 2
+Instruction Memory: 0
+The SIM just introduced an ASI operation to the instruction memory with value 0 to be stored at 3
+Instruction Memory: 0
+The SIM just introduced a NEG operation to the instruction memory using memory locations 2 with value 0 to be stored at 2
+Instruction Memory: 0
+The SIM just introduced an ADD operation to the instruction memory using memory locations 1 with value 0 and location 2 with value 0 to be stored at 1
+Instruction Memory: 0
+The SIM just introduced a LOE operation to the instruction memory using memory locations 1 with value 0 and location 3 with value 0 to be stored at 0
+Instruction Memory: 0
+The SIM just introduced a JP0 operation to the instruction memory on data memory number0
+Instruction Memory: 0
+The SIM just introduced an ASI operation to the instruction memory with value 1 to be stored at 0
+Instruction Memory: 0
+The SIM just introduced a JP0 operation to the instruction memory on data memory number1
+Instruction Memory: 0
+The SIM just introduced an ASI operation to the instruction memory with value 0 to be stored at 0
+Instruction Memory: 0
+The SIM just introduced a HLT instruction the instruction memory at address 11
+Instruction Memory: 1
+The SIM just introduced an ASI operation to the instruction memory with value 5 to be stored at 10
+Instruction Memory: 1
+The SIM just introduced an ASI operation to the instruction memory with value 1 to be stored at 11
+Instruction Memory: 1
+The SIM just introduced an ASI operation to the instruction memory with value 2 to be stored at 12
+Instruction Memory: 1
+The SIM just introduced an ASI operation to the instruction memory with value 1 to be stored at 13
+Instruction Memory: 1
+The SIM just introduced a NEG operation to the instruction memory using memory locations 11 with value 0 to be stored at 11
+Instruction Memory: 1
+The SIM just introduced a MUL operation to the instruction memory using memory locations 12 with value 0 and location 13 with value 0 to be stored at 13
+Instruction Memory: 1
+The SIM just introduced an ADD operation to the instruction memory using memory locations 10 with value 0 and location 11 with value 0 to be stored at 10
+Instruction Memory: 1
+The SIM just introduced a JP0 operation to the instruction memory on data memory number10
+Instruction Memory: 1
+The SIM just introduced a JPA operation to the instruction memory with value 5
+Instruction Memory: 1
+The SIM just introduced a HLT instruction the instruction memory at address 9
+Instruction Memory: 2
+The SIM just introduced an ASI operation to the instruction memory with value 10 to be stored at 20
+Instruction Memory: 2
+The SIM just introduced a MUL operation to the instruction memory using memory locations 20 with value 0 and location 20 with value 0 to be stored at 21
+Instruction Memory: 2
+The SIM just introduced a JPA operation to the instruction memory with value 4
+Instruction Memory: 2
+The SIM just introduced an ASI operation to the instruction memory with value 20 to be stored at 22
+Instruction Memory: 2
+The SIM just introduced a NEG operation to the instruction memory using memory locations 21 with value 0 to be stored at 22
+Instruction Memory: 2
+The SIM just introduced a HLT instruction the instruction memory at address 5
+
+--------------------------- EXECUTION ---------------------------
+Thread: 21676 working on instruction memory 0
+Instruction: 0
+The SIM just stored in memory location 0 now with value: 2
+Thread: 21676 working on instruction memory 0
+Instruction: 1
+The SIM just stored in memory location 1 now with value: 5
+Thread: 21676 working on instruction memory 0
+Instruction: 2
+The SIM just stored in memory location 2 now with value: 2
+Thread: 21676 working on instruction memory 0
+Instruction: 3
+The SIM just stored in memory location 3 now with value: 0
+Thread: 21676 working on instruction memory 0
+Instruction: 4
+The SIM just negated memory location 2 with value 2 and stored it in memory location 2 now with value: -2
+Thread: 21676 working on instruction memory 0
+Instruction: 5
+The SIM just added memory location 1
+--------------------------- EXECUTION ---------------------------
+Thread: 23392 working on instruction memory 1
+Instruction: 0
+ with value 5 & memory location 2 with value -2 and stored it in memory location 1 now with value: 3
+Thread: 21676 working on instruction memory 0
+Instruction: 6
+The SIM just compared memory location 1 with value 3 & memory location 3 with value 0 and stored smaller value in memory location 0 which is 0
+Thread: 21676 working on instruction memory 0
+Instruction: 7
+The SIM just executed a JPo operation
+Current instruction changed to 5 since memory location 0 is equal to 0 now
+Thread: 21676 working on instruction memory 0
+Instruction: 8
+The SIM just stored in memory location 0 now with value: 1
+Thread: 21676 working on instruction memory 0
+Instruction: 9
+The SIM just executed a JPo operation
+Data stored in memory location 1 is not 0
+Thread: 21676 working on instruction memory 0
+Instruction: 10
+The SIM just stored in memory location 10 now with value: 5
+
+--------------------------- EXECUTION ---------------------------
+The SIM just stored in memory location 0 now with value: 0
+Thread: 23392 working on instruction memory 1
+Instruction: 1
+The SIM just stored in memory location 11 now with value: 1
+Thread: 21096 working on instruction memory 2
+Instruction: 0
+The SIM just stored in memory location 20 now with value: 10
+Thread: 21676 working on instruction memory 0
+Instruction: 11
+HLT instruction is executed
+Thread: 23392 working on instruction memory 1
+Instruction: 2
+The SIM just stored in memory location 12 now with value: 2
+Thread: 21096 working on instruction memory 2
+Instruction: 1
+The SIM just multiplied memory location 20 with value 10 & memory location 20 with value 10 and stored it in memory location 21 now with value: 100
+Thread: 23392 working on instruction memory 1
+Instruction: 3
+The SIM just stored in memory location 13 now with value: 1
+Thread: 21096 working on instruction memory 2
+Instruction: 2
+Current instruction changed to 4
+Thread: 23392 working on instruction memory 1
+Instruction: 4
+The SIM just negated memory location 11 with value 1 and stored it in memory location 11 now with value: -1
+Thread: 21096 working on instruction memory 2
+Instruction: 3
+The SIM just stored in memory location 22 now with value: 20
+Thread: 23392 working on instruction memory 1
+Instruction: 5
+The SIM just multiplied memory location 12 with value 2 & memory location 13 with value 1 and stored it in memory location 13 now with value: 2
+Thread: 21096 working on instruction memory 2
+Instruction: 4
+The SIM just negated memory location 21 with value 100 and stored it in memory location 22 now with value: -100
+Thread: 23392 working on instruction memory 1
+Instruction: 6
+The SIM just added memory location 10 with value 5 & memory location 11 with value -1 and stored it in memory location 10 now with value: 4
+Thread: 21096 working on instruction memory 2
+Instruction: 5
+HLT instruction is executed
+Thread: 23392 working on instruction memory 1
+Instruction: 7
+The SIM just executed a JPo operation
+Data stored in memory location 10 is not 0
+Thread: 23392 working on instruction memory 1
+Instruction: 8
+Current instruction changed to 5
+Thread: 23392 working on instruction memory 1
+Instruction: 9
+HLT instruction is executed
+
+C:\Users\Ahmed Ali\source\repos\Milestone2_OOD\Debug\Milestone2_OOD.exe (process 23200) exited with code 0.
+Press any key to close this window . . .
